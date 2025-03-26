@@ -35,17 +35,17 @@
     <!-- Core Style Css -->
     <link rel="stylesheet" href="{% static "web/css/style.css" %}">
     <link rel="stylesheet" href="{% static "web/css/base.css" %}">
-    <link rel="stylesheet" href="{% static "web/plugin/css/animate.min.css" %}">
-    <link rel="stylesheet" href="{% static "web/plugin/css/bootstrap.min.css" %}">
-    <link rel="stylesheet" href="{% static "web/plugin/css/fontawesome-all.min.css" %}">
-    <link rel="stylesheet" href="{% static "web/plugin/css/ionicons.min.css" %}">
-    <link rel="stylesheet" href="{% static "web/plugin/css/justifiedGallery.min.css" %}">
-    <link rel="stylesheet" href="{% static "web/plugin/css/magnific-popup.css" %}">
-    <link rel="stylesheet" href="{% static "web/plugin/css/pe-icon-7-stroke.css" %}">
-    <link rel="stylesheet" href="{% static "web/plugin/css/slick.css" %}">
-    <link rel="stylesheet" href="{% static "web/plugin/css/slick-theme.css" %}">
-    <link rel="stylesheet" href="{% static "web/plugin/css/swiper.min.css" %}">
-    <link rel="stylesheet" href="{% static "web/plugin/css/YouTubePopUp.min.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/plugin/animate.min.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/plugin/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/plugin/fontawesome-all.min.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/plugin/ionicons.min.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/plugin/justifiedGallery.min.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/plugin/magnific-popup.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/plugin/pe-icon-7-stroke.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/plugin/slick.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/plugin/slick-theme.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/plugin/swiper.min.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/plugin/YouTubePopUp.min.css" %}">
 
 
 </head>
@@ -89,6 +89,12 @@
     </div>
 
     <!-- ==================== End progress-scroll-button ==================== -->
+    {% include "web/partials/header.html" %}
+
+    {% block content %}
+    {% endblock  %}
+
+    {% include "web/partials/footer.html" %}
 
     <!-- jQuery -->
     <script src="{% static "web/js/jquery-3.6.0.min.js" %}"></script>
