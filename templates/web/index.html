@@ -47,7 +47,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-5">
-                                <div class="img">{% static "" %}
+                                <div class="img">
                                     <img src="{% static "web/imgs/asir.png" %}" alt="">
                                 </div>
                             </div>
@@ -155,19 +155,22 @@
                 <section class="serv-box section-padding pb-0 sub-bg position-re">
                     <div class="container pt-30">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-8">
                                 <div class="sec-lg-head mb-80">
                                     <div class="position-re">
-                                        <h6 class="dot-titl-non mb-15 wow fadeIn">Featured Services</h6>
                                         <h2 class="d-rotate wow">
-                                            <span class="rotate-text">Our Services</span>
+                                            <span class="rotate-text">About me</span>
                                         </h2>
-                                        <p class="fz-14 mt-15">Nemo enim ipsam voluptatem quia voluptas sit odit aut
-                                            fugit, sed quia.</p>
+                                        <p class="fz-14 mt-15">I’m Asir Muhammed, a Full Stack Developer with a deep passion for crafting high-performance web applications and software solutions.
+
+                                            With 6+ months of experience in Python Django development and hands-on expertise in modern web technologies, I specialize in building:</p>
+                                            <li>✅ Static websites</li>
+                                            <li>✅ Dynamic websites</li>
+                                            <li>✅ Dynamic e-commerce platforms</li>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-7 offset-lg-1">
+                            {% comment %} <div class="col-lg-7 offset-lg-1">
                                 <div class="serv-list2">
                                     <div class="item pt-30 pb-30 bord-thin-top">
                                         <div class="row">
@@ -215,7 +218,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> {% endcomment %}
                         </div>
                     </div>
                     <div class="curve revers">
@@ -235,7 +238,7 @@
 
                 <!-- ==================== Start Portfolio ==================== -->
 
-                <section class="portfolio section-padding pb-70 sub-bg">
+                {% comment %} <section class="portfolio section-padding pb-70 sub-bg">
                     <div class="container-fluid">
                         <div class="gallery2">
 
@@ -343,7 +346,7 @@
                         </div>
 
                     </div>
-                </section>
+                </section> {% endcomment %}
 
                 <!-- ==================== End Portfolio ==================== -->
 
@@ -366,27 +369,27 @@
                                 <div class="skill-item d-flex justify-content-between md-mb50">
                                     <div class="item text-center">
                                         <div class="icon-img-60 m-auto">
-                                            <img src="assets/imgs/freelancer/skills/figma.png" alt="">
+                                            <img src="{% static "web/imgs/html.png" %}" alt="">
                                         </div>
-                                        <span class="mt-15">Figma</span>
+                                        <span class="mt-15">HTML</span>
                                     </div>
                                     <div class="item text-center">
                                         <div class="icon-img-60 m-auto">
-                                            <img src="assets/imgs/freelancer/skills/wordpress.png" alt="">
+                                            <img src="{% static "web/imgs/css.jpeg" %}" alt="">
                                         </div>
-                                        <span class="mt-15">WordPress</span>
+                                        <span class="mt-15">CSS</span>
                                     </div>
                                     <div class="item text-center">
                                         <div class="icon-img-60 m-auto">
-                                            <img src="assets/imgs/freelancer/skills/angular.png" alt="">
+                                            <img src="{% static "web/imgs/Bootstrap.jpeg" %}" alt="">
                                         </div>
-                                        <span class="mt-15">Angular</span>
+                                        <span class="mt-15">Bootstrap</span>
                                     </div>
                                     <div class="item text-center">
                                         <div class="icon-img-60 m-auto">
-                                            <img src="assets/imgs/freelancer/skills/webflow.png" alt="">
+                                            <img src="{% static "web/imgs/python.png" %}" alt="">
                                         </div>
-                                        <span class="mt-15">Webflow</span>
+                                        <span class="mt-15">Python</span>
                                     </div>
                                 </div>
                             </div>
@@ -394,8 +397,8 @@
                                 <div class="exp-items full-width">
                                     <div class="item d-flex pb-30 pt-30 mb-30 bord-thin-top bord-thin-bottom">
                                         <div class="title">
-                                            <h6>Android Studio</h6>
-                                            <p class="fz-12">Junior Product Designer</p>
+                                            <h6>Gedexo technologies</h6>
+                                            <p class="fz-12">Junior Python developer</p>
                                         </div>
                                         <div class="date ml-auto text-right">
                                             <span class="icon">
@@ -406,34 +409,7 @@
                                             <p class="fz-12">2014 - 2015</p>
                                         </div>
                                     </div>
-                                    <div class="item d-flex pb-30 mb-30 bord-thin-bottom">
-                                        <div class="title">
-                                            <h6>Slack</h6>
-                                            <p class="fz-12">UI/UX Designer & Developer</p>
-                                        </div>
-                                        <div class="date ml-auto text-right">
-                                            <span class="icon">
-                                                <a href="page-about.html">
-                                                    <i class="fas fa-arrow-right"></i>
-                                                </a>
-                                            </span>
-                                            <p class="fz-12">2015 - 2019</p>
-                                        </div>
-                                    </div>
-                                    <div class="item d-flex pb-30 bord-thin-bottom">
-                                        <div class="title">
-                                            <h6>Apple</h6>
-                                            <p class="fz-12">ios Developer</p>
-                                        </div>
-                                        <div class="date ml-auto text-right">
-                                            <span class="icon">
-                                                <a href="page-about.html">
-                                                    <i class="fas fa-arrow-right"></i>
-                                                </a>
-                                            </span>
-                                            <p class="fz-12">2019 - 2021</p>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -801,14 +777,14 @@
                                         get in
                                         touch, we’d love to hear from you!</p>
                                     <div class="phone fz-30 fw-600 mt-30 underline wow fadeIn">
-                                        <a href="#0">+1 840 841 25 69</a>
+                                        <a href="+91 9656949008">+91 9656949008</a>
                                     </div>
                                     <ul class="rest social-text d-flex mt-60">
                                         <li class="mr-30">
                                             <a href="#0" class="hover-this"><span class="hover-anim">Facebook</span></a>
                                         </li>
                                         <li class="mr-30">
-                                            <a href="#0" class="hover-this"><span class="hover-anim">Twitter</span></a>
+                                            <a href="https://github.com/asirmuhammed" class="hover-this"><span class="hover-anim">Github</span></a>
                                         </li>
                                         <li class="mr-30">
                                             <a href="#0" class="hover-this"><span class="hover-anim">LinkedIn</span></a>

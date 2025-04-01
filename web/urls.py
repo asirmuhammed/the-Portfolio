@@ -8,4 +8,5 @@ app_name = "web"
 urlpatterns = [
     path("", views.index, name="index"),
     path("about/", TemplateView.as_view(template_name="web/about.html")),
+    path("contact", TemplateView.as_view(template_name="web/contact.html")),
 ]
